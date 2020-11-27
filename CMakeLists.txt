@@ -23,6 +23,8 @@ endforeach()
 add_library(imgui STATIC ${imgui_sources})
 source_group(TREE ${CMAKE_CURRENT_SOURCE_DIR} FILES ${imgui_sources})
 
+set_target_properties(imgui PROPERTIES FOLDER "Dependencies")
+
 target_include_directories(imgui PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
 #target_include_directories(imgui  ${imgui_sources})
