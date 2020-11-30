@@ -28,6 +28,7 @@
     <ClCompile Include="..\..\imgui_draw.cpp">
       <Filter>imgui</Filter>
     </ClCompile>
+<<<<<<< HEAD:examples/example_glfw_opengl3/example_glfw_opengl3.vcxproj.filters
     <ClCompile Include="..\imgui_impl_glfw.cpp">
       <Filter>sources</Filter>
     </ClCompile>
@@ -37,6 +38,14 @@
     <ClCompile Include="..\..\imgui_widgets.cpp">
       <Filter>imgui</Filter>
     </ClCompile>
+=======
+    <ClCompile Include="imgui_impl_opengl3.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_glfw.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+>>>>>>> b0a8734c... Examples: GLFW+GL3: Split imgui_impl_glfw_gl3 into imgui_impl_glfw and imgui_impl_gl3 (wip):examples/opengl3_example/opengl3_example.vcxproj.filters
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\imconfig.h">
@@ -54,10 +63,17 @@
     <ClInclude Include="..\..\imgui_internal.h">
       <Filter>imgui</Filter>
     </ClInclude>
+<<<<<<< HEAD:examples/example_glfw_opengl3/example_glfw_opengl3.vcxproj.filters
     <ClInclude Include="..\imgui_impl_glfw.h">
       <Filter>sources</Filter>
     </ClInclude>
     <ClInclude Include="..\imgui_impl_opengl3.h">
+=======
+    <ClInclude Include="imgui_impl_opengl3.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_glfw.h">
+>>>>>>> b0a8734c... Examples: GLFW+GL3: Split imgui_impl_glfw_gl3 into imgui_impl_glfw and imgui_impl_gl3 (wip):examples/opengl3_example/opengl3_example.vcxproj.filters
       <Filter>sources</Filter>
     </ClInclude>
   </ItemGroup>

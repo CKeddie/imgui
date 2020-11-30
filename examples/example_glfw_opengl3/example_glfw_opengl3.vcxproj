@@ -162,6 +162,11 @@
     <ClCompile Include="..\imgui_impl_glfw.cpp" />
     <ClCompile Include="..\imgui_impl_opengl3.cpp" />
     <ClCompile Include="..\libs\gl3w\GL\gl3w.c" />
+<<<<<<< HEAD:examples/example_glfw_opengl3/example_glfw_opengl3.vcxproj
+=======
+    <ClCompile Include="imgui_impl_glfw.cpp" />
+    <ClCompile Include="imgui_impl_opengl3.cpp" />
+>>>>>>> b0a8734c... Examples: GLFW+GL3: Split imgui_impl_glfw_gl3 into imgui_impl_glfw and imgui_impl_gl3 (wip):examples/opengl3_example/opengl3_example.vcxproj
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -172,6 +177,11 @@
     <ClInclude Include="..\imgui_impl_opengl3.h" />
     <ClInclude Include="..\libs\gl3w\GL\gl3w.h" />
     <ClInclude Include="..\libs\gl3w\GL\glcorearb.h" />
+<<<<<<< HEAD:examples/example_glfw_opengl3/example_glfw_opengl3.vcxproj
+=======
+    <ClInclude Include="imgui_impl_glfw.h" />
+    <ClInclude Include="imgui_impl_opengl3.h" />
+>>>>>>> b0a8734c... Examples: GLFW+GL3: Split imgui_impl_glfw_gl3 into imgui_impl_glfw and imgui_impl_gl3 (wip):examples/opengl3_example/opengl3_example.vcxproj
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\misc\natvis\imgui.natvis" />
